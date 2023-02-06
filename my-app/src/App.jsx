@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
+import {Form, FormControl, Button, Jumbotron, Spinner} from 'react-bootstrap';
+
 import Clock from './Clock';
 
-import {Form, FormControl, Button, Jumbotron, Spinner} from 'react-bootstrap';
 import './App.css'
-
 
 class App extends Component {
     constructor(props) {
@@ -23,7 +23,7 @@ class App extends Component {
             <Jumbotron className='App'>
                 <div className='App-title'>Countdown to {this.state.deadline}</div>
                 <Clock 
-                deadline={this.state.deadline}
+                    deadline={this.state.deadline}
                 />
                 <Form >
                     <FormControl 

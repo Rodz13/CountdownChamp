@@ -8,9 +8,8 @@ Using Create React App
     - https://github.com/facebook/create-react-app#creating-an-app
  - 
 
-
 # To Run
- - npm start
+ - npm run start
     Starts the development server.
     Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
@@ -23,5 +22,3 @@ Using Create React App
  - npm run eject
     Removes this tool and copies build dependencies, configuration files
     and scripts into the app directory. If you do this, you can’t go back!
-
-
